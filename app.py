@@ -74,8 +74,8 @@ def preprocess_data(input_df: pd.DataFrame, model_features: list) -> pd.DataFram
 
 # --- 3. Streamlit UI 及主函数 ---
 def main():
-    st.set_page_config(page_title="Lending Club 违约预测", layout="sidebar")
-    st.title('💰 Lending Club 贷款违约风险预测系统')
+    st.set_page_config(page_title="Lending Club 违约预测", layout="wide")
+    st.title(' Lending Club ')
     st.markdown('---')
     
     # 加载模型和特征
